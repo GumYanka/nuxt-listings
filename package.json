@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-listings",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^4.0.0",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@pinia/nuxt": "^0.11.1",
+    "@tailwindcss/vite": "^4.0.7",
+    "nuxt": "^3.15.4",
+    "pinia": "^3.0.3",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/heroicons": "^1.2.2",
+    "@nuxt/icon": "^1.10.3",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "^24.5.2",
+    "autoprefixer": "^10.4.21",
+    "deepmerge": "^4.3.1",
+    "postcss": "^8.5.6",
+    "prettier": "^3.5.2",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "sass": "^1.93.2",
+    "sass-loader": "^16.0.5",
+    "tailwindcss": "^3.4.17"
+  }
+}
